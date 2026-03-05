@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Profile Card</title>
+  <style>
+    /* Global page styles */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #fff9c4);
+    }
+
+    /* Card container */
+    .profile-card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
+      max-width: 320px;
+      width: 100%;
+    }
+
+    /* Profile image placeholder */
+    .profile-image {
+      width: 120px;
+      height: 120px;
+      background: #cfd8dc;
+      border-radius: 50%;
+      margin: 0 auto 1.5rem;
+    }
+
+    /* Text styling */
+    .name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0.5rem 0;
+    }
+
+    .stream {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .bio {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="profile-image"></div>
+    <div class="name">Your Name</div>
+    <div class="stream">Computer Science</div>
+    <div class="bio">
+      A short bio about your journey to graduation goes here. Talk about
+      passion for learning, projects you've worked on, and what motivates
+      you as you move toward your degree.
+    </div>
+  </div>
+</body>
+</html>
